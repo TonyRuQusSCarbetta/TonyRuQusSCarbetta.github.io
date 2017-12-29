@@ -1,0 +1,54 @@
+body {
+
+
+    background-color: #4285F4;
+
+    /*#eef6ff*/
+}
+
+#container {}
+
+.intro {
+    box-sizing: border-box;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    border: solid 5px black;
+    background-color: rgb(232, 240, 254);
+}
+
+p {
+    padding: 1px;
+    text-align: center;
+}
+
+.googleForm {
+    width: 100%;
+    margin-top: -2.8px;
+
+}
+
+.container1 {
+    background: white;
+
+}
+
+.container1 img {
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 200px;
+
+
+
+}
+
+.container1 {
+    border: solid 5px #4285F4;
+
+}
+
+h1 {
+    font-size: 4rem;
+    text-decoration: underline;
+}
