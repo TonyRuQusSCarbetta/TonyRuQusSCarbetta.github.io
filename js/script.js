@@ -1,5 +1,6 @@
 $(function () {
-
+    $('footer').hide().slideDown(9000);
+    $('footer img').hide().show(9000);
     $('.logo').hide().slideDown(9000);
     $('.logo img').hide().show(9000);
     $('.card').hide().fadeIn(9000);

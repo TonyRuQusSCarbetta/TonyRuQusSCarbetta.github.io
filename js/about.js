@@ -1,5 +1,8 @@
-$(function () {
+$(document).ready(function()
+{
+    $('.carousel').carousel({
+      interval: 1500
+    });
 
-    $('.navbar').hide().fadeIn(4000).fadeOut(4000).fadeIn(4000).fadeOut(4000).fadeIn(4000).fadeOut(4000).fadeIn(4000).fadeOut(4000).fadeIn(4000).fadeOut(4000).fadeIn(4000);
-
+    $('.carousel').carousel('next');
 });

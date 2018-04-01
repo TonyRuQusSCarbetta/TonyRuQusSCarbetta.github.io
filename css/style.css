@@ -18,3 +18,9 @@
 @media (min-width: 1199px) {
   .port-item {
     padding: 3em !important; } }
+
+    .navbar {
+      position: sticky;
+      top: 0px;
+      z-index: 100;
+    }

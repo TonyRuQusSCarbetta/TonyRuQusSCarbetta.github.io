@@ -18,3 +18,9 @@ body {
     width: 50%;
     text-align: center;
 }
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}

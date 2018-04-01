@@ -147,3 +147,9 @@ body {
 .container .marketing {
     margin: none;
 }
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
