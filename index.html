@@ -1,213 +1,578 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
 <head>
-  <!-- Required meta tags always come first -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <!-- google font -->
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+  <title>Carbetta Coding</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="favicon.ico">
 
-  <!-- Google Tag Manager -->
-  <script>
-    (function(w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-PNR7Z98');
-  </script>
-  <!-- End Google Tag Manager -->
+  <!--Google Font link-->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
 
-  <title>Carbetta Coding: Home</title>
-  <!-- Normalize / Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/slick/slick.css">
+  <link rel="stylesheet" href="assets/css/slick/slick-theme.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/iconfont.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/hover.css">
+  <link rel="stylesheet" href="assets/css/bootsnav.css">
 
-  <!-- External CSS -->
-  <link rel="stylesheet" href="css/hover-min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/stylesheet.css">
-  <meta name="author" content="Tony Carbetta">
-  <link rel="shortcut icon" href="css/img/favicon/logo_size_icon_invert.jpg" type="image/x-icon" />
+  <!-- xsslider slider css -->
+
+
+  <!--<link rel="stylesheet" href="assets/css/xsslider.css">-->
+
+
+
+
+  <!--For Plugins external css-->
+  <!--<link rel="stylesheet" href="assets/css/plugins.css" />-->
+
+  <!--Theme custom css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!--<link rel="stylesheet" href="assets/css/colors/maron.css">-->
+
+  <!--Theme Responsive css-->
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+
+  <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 
-<body>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111740808-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+<body data-spy="scroll" data-target=".navbar-collapse">
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
 
-    gtag('config', 'UA-111740808-1');
-  </script>
-
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNR7Z98"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-    <!-- Brand -->
-    <a class="navbar-brand" href="index.html">Carbetta Coding</a>
-
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-    <!-- Navbar links -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="http://tonycarbetta.com/#portfolio" target="_blank">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="FAQ.html">Pricing/FAQ</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <a class="data-toggle=" collapse data-target=".navbar-collapse.show"><span class="sr-only"(current)></span></a>
-
-      </ul>
+  <!-- Preloader -->
+  <div id="loading">
+    <div id="loading-center">
+      <div id="loading-center-absolute">
+        <div class="object" id="object_one"></div>
+        <div class="object" id="object_two"></div>
+        <div class="object" id="object_three"></div>
+        <div class="object" id="object_four"></div>
+      </div>
     </div>
-
-  </nav>
-
-
-
-  <div class="container">
+  </div>
+  <!--End off Preloader -->
 
 
-    <div class="logo"><img src="css/img/Logos/logo_transparent_background_noIcon.png" alt="Carbetta Coding">
+  <div class="culmn">
+    <!--Home page style-->
 
 
-      <!-- MODAL VIDEO -->
-      <!--<button class="btn btn-primary btn-sm video" data-video="https://www.youtube.com/embed/3JXNUTMQpYU" data-toggle="modal" data-target="#videoModal">Launch Video</button>
+    <nav class="navbar navbar-default bootsnav navbar-fixed">
+      <div class="navbar-top bg-grey fix">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="navbar-callus text-left sm-text-center">
+                <ul class="list-inline">
+                  <li><a href="tel:+1-415-295-2426"><i class="fa fa-phone" target="_blank"></i> Call us: 415-295-2426</a></li>
+                  <li><a href="mailto:TonyCarbetta@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i> Email Us: Directly</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="navbar-socail text-right sm-text-center">
+                <ul class="list-inline">
+                  <li><a href="https://www.facebook.com/CarbettaCoding/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://www.instagram.com/carbetta_coding/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="https://www.linkedin.com/company/carbetta-coding/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 
-            <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe width="100%" height="500" src="" frameborder="0" allowfullscreen></iframe>
-                            </div>
+                  <!-- <li><a href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a href="" target="_blank"><i class="fa fa-behance"></i></a></li>
+                                        <li><a href="" target="_blank"><i class="fa fa-dribbble"></i></a></li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Start Top Search -->
+      <!-- <div class="top-search">
+                    <div class="container">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                            <input type="text" class="form-control" placeholder="Search">
+                            <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
                         </div>
                     </div>
+                </div> -->
+      <!-- End Top Search -->
+
+
+      <div class="container">
+        <!-- <div class="attr-nav">
+                        <ul>
+                            <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                        </ul>
+                    </div> -->
+
+        <!-- Start Header Navigation -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+          <a class="navbar-brand" href="#brand">
+                            <img src="assets/images/logo-main.png" class="logo" alt="main logo">
+                            <!--<img src="assets/images/footer-logo.png" class="logo logo-scrolled" alt="">-->
+                        </a>
+
+        </div>
+        <!-- End Header Navigation -->
+
+        <!-- navbar menu -->
+        <div class="collapse navbar-collapse" id="navbar-menu">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">Home</a></li>
+            <!-- <li><a href="#features">About</a></li> -->
+            <li><a href="#business">Service & Pricing</a></li>
+            <li><a href="#test">Testimonials</a></li>
+            <li><a href="http://www.TonyCarbetta.com/#portfolio" target="_blank">Portfolio</a></li>
+            <!-- <li><a href="#work">Portfolio</a></li> -->
+            <!-- <li><a href="#test">Testimonials</a></li> -->
+            <!-- <li><a href="#contact">Contact</a></li> -->
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+
+    </nav>
+
+    <!--Home Sections-->
+
+    <section id="home" class="home bg-black fix">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="main_home text-center">
+            <div class="col-md-12">
+              <div class="hello_slid">
+                <div class="slid_item">
+                  <div class="home_text ">
+                    <img src="assets/images/logo-main.png" class="logo1 animated zoomInDown" alt="logo">
+                    <!-- <h2 class="text-white">Welcome to <strong>Carbetta Coding</strong></h2> -->
+                    <div class="hvr-pulse-grow">
+                      <h1 class="text-white"> We handle your Web Service.</h1>
+                      <h3 class="text-white">-  You <strong>Experience</strong> the <strong>Difference</strong>! -</h3>
+                    </div>
+                  </div>
+
+<!-- <a href="mailto:TonyCarbetta@gmail.com" target="_blank"><i class="fa fa-envelope-o btn btn-light m-top-20 ml-50"> Invoice Request</i></a> -->
+
+                  <div class="home_btns m-top-40">
+                    <a href="mailto:TonyCarbetta@gmail.com?subject=Request%20for%20more%20info%20CarbettaCoding.com&body=I am interested in the______________ package.  I would like my project to be ________________." target="_blank" class="btn btn-primary m-top-20  hvr-float-shadow"> Invoice Request <b><i class="fa fa-envelope-o"> </i></b></a>
+                    <!-- <a href="mailto:TonyCarbetta@gmail.com?subject=Invoice%20Request%20for%20basic%20package%20CarbettaCoding.com" target="_blank"><i class="fa fa-envelope-o btn btn-light m-top-20 ml-50"> Invoice Request</i></a> -->
+                    <a href="#business" class="btn btn-default m-top-20  hvr-float-shadow">More Info</a>
+                  </div>
                 </div>
-            </div> -->
+                <!-- End off slid item -->
+
+              </div>
+            </div>
+
+          </div>
 
 
-
-      <!--<div class="page-header">
-            <h1>Carbetta Coding</h1>
-            <p class="lead">Web Design &amp; <span>Development</span></p>
-        </div>-->
-
-
-    </div>
-    <!-- End container -->
-
-    <div class="container">
-
-      <div class="row">
-        <div class="card hvr-glow">
-          <img src="css/img/code1.jpg" alt="Design">
-          <p class="card-text google-font">Design</p>
         </div>
-        <div class="card hvr-glow">
-          <img src="css/img/responsiveMac.jpeg" alt="Responsive">
-          <p class="card-text google-font">Develop</p>
+        <!--End off row-->
+      </div>
+      <!--End off container -->
+    </section>
+    <!--End off Home Sections-->
+
+
+
+    <!--Featured Section-->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="row">
+          <div class="main_features fix roomy-70">
+            <div class="col-md-4 hvr-glow">
+              <div class="features_item sm-m-top-30">
+                <div class="f_item_icon">
+                  <i class="fa fa-thumbs-o-up"></i>
+                </div>
+                <div class="f_item_text">
+                  <h3>Best Quality Design</h3>
+                  <p>We're not happy until you are. with our unique branding designs made custom toward your liking.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 hvr-glow">
+              <div class="features_item sm-m-top-30">
+                <div class="f_item_icon">
+                  <i class="fa fa-tablet"></i>
+                </div>
+                <div class="f_item_text">
+                  <h3>Responsive Design</h3>
+                  <p>Majority of the internet is happening on mobile devices. That's why we make it work across devices of any size!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 hvr-glow">
+              <div class="features_item sm-m-top-30">
+                <div class="f_item_icon">
+                  <i class="fa fa-sliders"></i>
+                </div>
+                <div class="f_item_text">
+                  <h3>Easy to Customize</h3>
+                  <p>We guaranteed quality assurance with great customer service. Being readily available when projects are being completed & updated for your needs.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="card hvr-glow">
-          <img src="css/img/responsive2.jpg" alt="Success">
-          <p class="card-text google-font">Deploy</p>
+        <!-- End off row -->
+      </div>
+      <!-- End off container -->
+    </section>
+    <!-- End off Featured Section-->
+
+
+    <!--Business Section-->
+    <section id="business" class="business bg-grey roomy-70">
+      <div class="container">
+        <div class="row">
+          <div class="main_business">
+            <div class="col-md-6">
+              <div class="business_slid">
+                <div class="slid_shap bg-grey"></div>
+                <div class="business_items text-center">
+                  <div class="business_item">
+                    <div class="business_img">
+                      <img src="assets/images/responsiveMac.jpeg" alt="responsive mac" />
+                    </div>
+                  </div>
+
+                  <div class="business_item">
+                    <div class="business_img">
+                      <img src="assets/images/code1.jpg" alt="code" />
+                    </div>
+                  </div>
+
+                  <div class="business_item">
+                    <div class="business_img">
+                      <img src="assets/images/responsive2.jpg" alt="responsive2" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 hvr-bubble-float-bottom">
+              <div class="business_item sm-m-top-50">
+                <div id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="card">
+                    <div class="card-header" role="tab" id="headingOne">
+                      <h5 class="mb-0">
+          <a data-toggle="collapse" data-parent="#accordion" href="" aria-expanded="true" aria-controls="collapseOne">
+<h2 class="text-uppercase"><strong>Service</strong> & Pricing</h2>
+                <i class="fa fa-arrow-circle-right"><span> Setting up your project</span></i>
+
+          </a>
+        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                      <div class="card-block">
+                        <p class="m-top-20">
+                          Web development and design is unique to each client. We have three different packages available depending on your needs. This is why we have you <a href="contact.html">Contact us</a> first to determine the estimated size and
+                          time of the project. Right now we are taking as much work as possible without charging an arm and a leg.
+
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" role="tab" id="headingTwo">
+                      <h5 class="mb-0">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <i class="fa fa-arrow-circle-right"><span> What's included?</span></i>
+          </a>
+        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                      <div class="card-block">
+                        <p class="m-top-20">
+                          This all depends on you. If you have a vision of what you want we will be able to judge the amount of time and work it will take. If you don't have specifics (which is fine, not all of us are born creative) We can definitley run some ideas. At the minimum
+                          you are getting a fully functional responsive website built from the ground up that works across all devices at a great price. We <b>want</b> to give you great service and delivery.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" role="tab" id="headingThree">
+                      <h5 class="mb-0">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <i class="fa fa-arrow-circle-right"><span> What about payment?</span></i>
+          </a>
+        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                      <div class="card-block">
+                        <p class="m-top-20">
+                        We work exclusively with Paypal and keep everything in writing via email. Select your package and <br><a href="contact.html">Contact us</a> directly to recieve an offical paypal <b>invoice</b>. For all packages I charge half upfront
+                        and the other half when you recieve the site and are satisfied. Repeat and/or referal customers may be eligible for an additional discount.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header" role="tab" id="headingFour">
+                      <h5 class="mb-0">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+  <!-- <h2 class="text-uppercase"><strong>Service</strong> & Pricing</h2> -->
+                <i class="fa fa-arrow-circle-right"><span> Basic Package</span></i>
+
+          </a>
+        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+                      <div class="card-block">
+                        <p class="m-top-20">
+                          The <b>basic package</b> price ranges from <b>$75-$125</b>. This is a quick single page website. Great for a landing page if your business is just getting started. This can always be upgraded later.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" role="tab" id="headingFive">
+                      <h5 class="mb-0">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <i class="fa fa-arrow-circle-right"><span> Elite Package</span></i>
+          </a>
+        </h5>
+                    </div>
+                    <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+                      <div class="card-block">
+                        <p>The <b>elite package</b> includes three pages of your choice on one site. Typically they are a "landing" page, an "about" page, and a "contact" page. This is great for a business needing to sell their product/service, or even to
+                          simply showcase their brand. The price ranges from <b>$150-$299</b>.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" role="tab" id="headingSix">
+                      <h5 class="mb-0">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            <i class="fa fa-arrow-circle-right"><span> Premium Package Pricing</span></i>
+          </a>
+        </h5>
+                    </div>
+                    <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
+                      <div class="card-block">
+                        <p>The <b>premium package</b> includes large scale websites with login database information. For more information on this package please contact me directly. For all packages I charge half upfront and the other half when you recieve
+                          the site and are satisfied.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end of accordion -->
+                <div class="business_btn">
+                  <!-- <a href="tel:+1-415-295-2426"><i class="fa fa-phone btn btn-default m-top-20" > Call Now</i></a>
+                  <a href="mailto:TonyCarbetta@gmail.com" target="_blank"><i class="fa fa-envelope-o btn btn-primary m-top-20"> Invoice Request</i></a> -->
+                </div>
+
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
-    </div>
-    <!-- End container -->
+
+                    <div class="col-md-4 package-img hvr-bob">
+                      <img src="assets/images/pricing-basic-package.png" alt="basic price">
+                      <a href="mailto:TonyCarbetta@gmail.com?subject=Invoice%20Request%20for%20basic%20package%20CarbettaCoding.com&body=I am requesting an invoice for the basic package.  I would like my project to be ________________." target="_blank"><i class="fa fa-envelope-o btn btn-light m-top-20 ml-50 hvr-grow"> Invoice Request</i></a>
+                    </div>
+                    <div class="col-md-4 package-img hvr-bob">
+                      <img src="assets/images/pricing-elite-package.png" alt="elite price">
+                      <a href="mailto:TonyCarbetta@gmail.com?subject=Invoice%20Request%20for%20elite%20package%20CarbettaCoding.com&body=I am requesting an invoice for the elite package.  I would like my project to be ________________." target="_blank"><i class="fa fa-envelope-o btn btn-light m-top-20 ml-50 hvr-grow"> Invoice Request</i></a>
+                    </div>
+
+                    <div class="col-md-4 package-img hvr-bob">
+                      <img src="assets/images/pricing-premium-package.png" alt="premium price">
+                    <a href="mailto:TonyCarbetta@gmail.com?subject=Invoice%20Request%20for%20premium%20package%20CarbettaCoding.com&body=I am requesting an invoice for the basic package.  I would like my project to be ________________." target="_blank"><i class="fa fa-envelope-o btn btn-light m-top-20 ml-50 hvr-grow"> Invoice Request</i></a>
+                    </div>
+                    <!-- <div id="buyNow"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="2D6CV5N5E45L8">
+<table>
+<tr><td><input type="hidden" name="on0" value="Choose Your Package">Choose Your Package</td></tr><tr><td><select name="os0">
+	<option value="Elite Package">Elite Package $150.00 USD</option>
+	<option value="Basic Package">Basic Package $75.00 USD</option>
+	<option value="Premium Package">Premium Package $300.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form></div> -->
 
 
-    <div class="container-fluid call-to-action">
-      <div class="row hvr-pulse-grow">
-        <div class="col-md-12 text-center">
-          <h2>Get your website built professionally and experience the difference!</h2>
+    </section>
+    <!-- End off Business section -->
+    <!-- <div id="footer">
+        <footer class="text-muted">
+
+            <img style="border-radius: 3%;" src="css/img/Logos/footer.jpg"><br> &copy; Carbetta Coding 2018<br>
+            <a href="#">Back to top</a><br>
+        </footer>
+    </div> -->
+  </div>
+
+    <!--Test section-->
+    <section id="test" class="test bg-grey roomy-60 fix">
+      <div class="container">
+        <div class="row">
+
+<h2 class="text-uppercase center"><strong>Client</strong> Testimonials</h2>
+            <div class="col-md-6">
+              <div class="test_item fix">
+                <div class="item_img">
+                  <img class="img-circle" src="assets/images/test-img1.jpg" alt="" />
+                  <i class="fa fa-quote-left"></i>
+                </div>
+
+                <div class="item_text">
+                  <h5>Sarah Curruzo</h5>
+                  <h6>Yummzers.com</h6>
+
+                  <p>Great customer service! I found an add on facebook, sent a message and within a day my site was done!  Carbetta Coding exceeded my expectations and I would highly recomend their web services .</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="test_item fix sm-m-top-30">
+                <div class="item_img">
+                  <img class="img-circle" src="assets/images/marissa.png" alt="marissa" />
+                  <i class="fa fa-quote-left"></i>
+                </div>
+
+                <div class="item_text">
+                  <h5>Marissa Gonzales</h5>
+                  <h6>realtor-ready-react.herokuapp.com</h6>
+
+                  <p>The quality of my real estate site was top notch.  I would definitley suggest Carbetta Coding to my friends as it has increased my business tremendously!</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
+    <!-- End off test section -->
 
 
-
-      <div class="row">
-        <div class="col-md-12 text-center center">
-          <a href="about.html"><button type="button" class="inline-block btn btn-primary btn-lrg text-center hvr-bob hvr-float-shadow">Learn More</button></a>
-          <h3 class="inline-block">            </h3>
-          <a href="contact.html"><button class="inline-block btn btn-primary btn-lrg text-center hvr-bob hvr-float-shadow">Contact Us</button></a>
+    <!--Brand Section-->
+    <section id="brand" class="brand fix roomy-80">
+      <div class="container">
+        <div class="row">
+          <div class="main_brand text-center">
+            <div class="col-md-2 col-sm-4 col-xs-6">
+              <div class="brand_item sm-m-top-20">
+                <img src="assets/images/cbrand-img1.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+              <div class="brand_item sm-m-top-20">
+                <img src="assets/images/cbrand-img2.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+              <div class="brand_item sm-m-top-20">
+                <img src="assets/images/cbrand-img3.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+              <div class="brand_item sm-m-top-20">
+                <img src="assets/images/cbrand-img4.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+              <div class="brand_item sm-m-top-20">
+                <img src="assets/images/apple.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+              <div class="brand_item sm-m-top-20">
+                <img src="assets/images/facebook.png" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
-
       </div>
-    </div>
+    </section>
+    <!-- End off Brand section -->
 
-</div>
-    <footer class="text-muted container-fluid">
-      <!-- <div class="container"> -->
 
-        <p class="pull-xs-right">
+    <!--Call to  action section-->
+    <section id="action" class="action bg-primary roomy-40">
+      <div class="container">
+        <div class="row">
+          <div class="maine_action">
+            <div class="col-md-8">
+              <div class="action_item text-center">
+                <h2 class="text-white text-uppercase">Thanks for visiting CarbettaCoding.com</h2>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="action_btn text-left sm-text-center">
+                <a href="#home" class="btn btn-default">Back To Top</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <p>
 
-            <img class="CarbettaCoding"style="border-radius: 3%;" src="css/img/Logos/footer.jpg" alt=""><br>
-            <a href="#">Back to top</a> &copy; 2018<br>
+
+
+    <!-- <footer id="contact" class="">
+      <div class="main_footer fix bg-mega text-center p-top-40 p-bottom-30 m-top-80">
+        <div class="col-md-12">
+          <p class="wow fadeInRight" data-wow-duration="1s">
+            Made with
+            <i class="fa fa-heart"></i> by
+            <a target="_blank" href="http://www.TonyCarbetta.com">Carbetta Coding</a> 2016. All Rights Reserved
           </p>
-
-
-      <!-- </div> -->
-
-
-    </footer>
+        </div>
+      </div>
+    </footer> -->
 
 
 
-  <!-- jQuery first, then Boostrap JS. -->
 
-  <!-- Load the jQuery CDN first,  -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </div>
 
-  <!-- If jQuery CDN fails to load, serve up the local version -->
-  <script>
-    window.jQuery || document.write('<script src="js/jquery-3.2.1.js"><\/script>');
-  </script>
+  <!-- JS includes -->
 
-  <!-- External Javascript -->
-  <script src="js/script.js"></script>
+  <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+  <script src="assets/js/vendor/bootstrap.min.js"></script>
 
-  <!-- Bootstrap JS -->
-  <!--<script src="js/bootstrap.min.js"></script>-->
-
-  <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.js"></script>
+  <script src="assets/js/jquery.easing.1.3.js"></script>
+  <script src="assets/css/slick/slick.js"></script>
+  <script src="assets/css/slick/slick.min.js"></script>
+  <script src="assets/js/jquery.collapse.js"></script>
+  <script src="assets/js/bootsnav.js"></script>
 
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 
