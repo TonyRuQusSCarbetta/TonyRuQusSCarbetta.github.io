@@ -86,6 +86,7 @@
                 <ul class="list-inline">
                   <li><a href="https://www.facebook.com/CarbettaCoding/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                   <li><a href="https://www.instagram.com/carbetta_coding/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="https://www.youtube.com/channel/UCbqZGXRtd2wIoFxnkriKYew" target="_blank"><i class="fa fa-youtube"></i></a></li>
                   <li><a href="https://www.linkedin.com/company/carbetta-coding/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 
                   <!-- <li><a href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -171,11 +172,35 @@
 
 <!-- <a href="mailto:TonyCarbetta@gmail.com" target="_blank"><i class="fa fa-envelope-o btn btn-light m-top-20 ml-50"> Invoice Request</i></a> -->
 
+
                   <div class="home_btns m-top-40">
-                    <a href="mailto:TonyCarbetta@gmail.com?subject=Request%20for%20more%20info%20CarbettaCoding.com&body=I am interested in the______________ package.  I would like my project to be ________________." target="_blank" class="btn btn-primary m-top-20  hvr-float-shadow"> Invoice Request <b><i class="fa fa-envelope-o"> </i></b></a>
+                    <a id="videoMobile" class="btn btn-primary m-top-20  hvr-float-shadow" onclick="videoMobile()">Play Video <i class="fa fa-play"> </i> </a>
+                    <a href="mailto:TonyCarbetta@gmail.com?subject=Request%20for%20more%20info%20CarbettaCoding.com&body=I am interested in the______________ package.  I would like my project to  ________________." target="_blank" class="btn btn-default m-top-20  hvr-float-shadow"> Invoice Request <b><i class="fa fa-envelope-o"> </i></b></a>
                     <!-- <a href="mailto:TonyCarbetta@gmail.com?subject=Invoice%20Request%20for%20basic%20package%20CarbettaCoding.com" target="_blank"><i class="fa fa-envelope-o btn btn-light m-top-20 ml-50"> Invoice Request</i></a> -->
-                    <a href="#business" class="btn btn-default m-top-20  hvr-float-shadow">More Info</a>
-                  </div>
+
+
+
+                    	<!-- <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script> -->
+                    <script type="text/javascript">
+                      function videoMobile() {
+                      	var videoMobile = document.getElementById('videoMobile');
+                      	videoMobile.style.display = 'block';
+                      	videoMobile.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/jz35tczBk0Q?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+                      	videoMobile.style.display = 'block';
+                      	videoMobile.className = 'animated rotateIn border border-rounded';
+                      }
+                      </script>
+
+                    <!-- video button -->
+                  	<!-- <div id="vidContainer" class="container mt-5 bg-black w-100">
+                  				<div id="videoMobileContainer" class="row align-items-center justify-content-center bg-black">
+                  		 <button id="videoMobile" type="button" onclick="videoMobile()" class="btn bg-light darkRed p-5 m-5 animated slideInLeft hvr-icon-spin">
+                  			<h5 class="align-items-center justify-content-center">Click to play</h5>
+                  			<i class="fas fa-play-circle fa-10x hvr-icon"></i>
+                  			<h5 class="align-items-center justify-content-center"> Full Portfolio Video!</h5>
+                  		</button>
+                  		</div>
+                  </div> -->
                 </div>
                 <!-- End off slid item -->
 
@@ -287,7 +312,7 @@
                     <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
                       <div class="card-block">
                         <p class="m-top-20">
-                          Web development and design is unique to each client. We have three different packages available depending on your needs. This is why we have you <a href="contact.html">Contact us</a> first to determine the estimated size and
+                          Web development and design is unique to each client. We have three different packages available depending on your needs. This is why we have you <a href="mailto:TonyCarbetta@gmail.com?subject=Request%20for%20more%20info%20CarbettaCoding.com&body=I am interested in the______________ package.  I would like my project to  ________________." target="_blank"> Contact us</a> first to determine the estimated size and
                           time of the project. Right now we are taking as much work as possible without charging an arm and a leg.
 
 
@@ -474,7 +499,7 @@
                 </div>
 
                 <div class="item_text">
-                  <h5>Marissa Gonzales</h5>
+                  <h5>Marissa Martinez</h5>
                   <h6>realtor-ready-react.herokuapp.com</h6>
 
                   <p>The quality of my real estate site was top notch.  I would definitley suggest Carbetta Coding to my friends as it has increased my business tremendously!</p>
@@ -569,6 +594,8 @@
 
 
   </div>
+
+
 
   <!-- JS includes -->
 

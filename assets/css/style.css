@@ -1407,3 +1407,7 @@ i.fa.fa-arrow-circle-right {
 section#test {
     padding-top: 0px;
 }
+
+a#videoMobile {
+    min-width: 225px;
+}
