@@ -1382,6 +1382,7 @@ img.logo1 {
 
 i.fa.fa-arrow-circle-right {
   font-size: 1.5rem;
+  padding-top: 1%;
 }
 
 .ml-50 {
@@ -1399,15 +1400,40 @@ i.fa.fa-arrow-circle-right {
 
 .center {
   text-align: center;
-  /* margin: 0 auto; */
-  /* align-items: center; */
-  /* justify-content: center; */
+  margin: 0 auto;
+  /* align-items: center;
+  justify-content: center; */
 }
 
 section#test {
     padding-top: 0px;
 }
 
-a#videoMobile {
+/* a#videoMobile {
     min-width: 225px;
+    max-width: 310px;
+} */
+
+ .flex-container {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+/* .playButton {
+  padding: 250px;
+} */
+.paypal {
+  padding-top: 5%;
+}
+
+.response {
+  color:#aaaaaa;
+}
+
+.package-img {
+  padding-bottom: 5%;
 }
