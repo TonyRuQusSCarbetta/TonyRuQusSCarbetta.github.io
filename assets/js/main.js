@@ -7,20 +7,6 @@ jQuery(document).ready(function ($) {
         $("#loading").fadeOut(500);
     });
 
-    //---------------------------------------------
-    // Scroll
-    //---------------------------------------------
-
-        $('.scrollup').click(function () {
-            $("html, body").animate({scrollTop: 0}, 1000);
-            return false;
-        });
-
-        $(".scrollToBusiness").click(function() {
-            $('html, body').animate({
-                scrollTop: $("#business").offset().top
-            -220}, 1000);
-        });
     /*---------------------------------------------*
      * Mobile menu
      ---------------------------------------------*/
@@ -91,6 +77,20 @@ jQuery(document).ready(function ($) {
         autoplaySpeed: 2000
     });
 
+    //---------------------------------------------
+    // Scroll
+    //---------------------------------------------
+
+        $('.scrollup').click(function () {
+            $("html, body").animate({scrollTop: 0}, 1000);
+            return false;
+        });
+
+        $(".scrollToBusiness").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#business").offset().top
+            -220}, 1000);
+        });
     //End
 
 });
