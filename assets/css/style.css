@@ -1,31 +1,3 @@
-
-
-/*
-Author: Xpeedstudio
-Author URI: http://xpeedstudio.com
-*/
-
-/*==========================================
- 01.  PREDIFINEED (FROM 1 TO 780 )
- 02.  PRELOADER - LINE NO 786
- 03.  NAVIGATION - LINE NO 930
- 04.  HOME - LINE NO 1150
- 05.  THU FEATURE - LINE NO 1280
- 06.  THU FLIDE - LINE NO 1355
- 07.  THU SERVICE - LINE NO 1385
- 08.  PORTFOLIO - LINE NO 1444
- 09.  THU SOLUTION - LINE NO 1620
- 10.  THU TEAM - LINE NO 1658
- 11.  THU CLIENTS FEEDBACK - LINE NO 1730
- 12. THU BLOG - LINE NO 1848
- 13. THU SUBCRIBS - LINE NO 1935
- 14. FOOTER - LINE NO 2020
-==========================================*/
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 html,
 body {
     font-size: 14px;
@@ -38,65 +10,6 @@ body {
     width:100%;
     font-family: 'Raleway', sans-serif;
 }
-
-/*------------------------------------------------------------------*/
-/*   IE10 in Windows 8 and Windows Phone 8 Bug fix
-/*-----------------------------------------------------------------*/
-
-@-webkit-viewport { width: device-width; }
-@-moz-viewport { width: device-width; }
-@-ms-viewport { width: device-width; }
-@-o-viewport { width: device-width; }
-@viewport { width: device-width; }
-
-/*
-    Page Content
-------------------------------------------*/
-
-.page-content,
-section { overflow: hidden; }
-
-/*
-    On Scroll Animations
-------------------------------------------*/
-
-/*.animated { visibility: hidden; }
-.visible { visibility: visible; }*/
-
-/*
-    Spacing & Alignment
-------------------------------------------*/
-
-.roomy-100 {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.roomy-80 {
-    padding-top: 100px;
-    padding-bottom: 80px;
-}
-
-.roomy-70 {
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-
-.roomy-60 {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.roomy-50 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.roomy-40 {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
 
 /*text color*/
 
@@ -112,7 +25,7 @@ section { overflow: hidden; }
     cursor: not-allowed;
 }
 
-/*bacground color*/
+/*background color*/
 .lightbg {
     background-color: #f2f2f2;
 }
@@ -1140,6 +1053,57 @@ work Section style
     opacity: 1;
 }
 
+/*------------------------------------------------------------------*/
+/*   IE10 in Windows 8 and Windows Phone 8 Bug fix
+/*-----------------------------------------------------------------*/
+
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+/*
+    Page Content
+------------------------------------------*/
+
+.page-content,
+section { overflow: hidden; }
+
+
+/*
+    Spacing & Alignment
+------------------------------------------*/
+
+.roomy-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.roomy-80 {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.roomy-70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.roomy-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.roomy-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.roomy-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 
 
@@ -1233,104 +1197,12 @@ work Section style
 
 }
 
-
-
 /*Footer section*/
 .divider{
     width:100%;
     height: 1px;
     background-color: #434769;
     display: inline-block;
-}
-.widget_ab_item_text h6{
-    margin-bottom:5px;
-}
-.widget_item h5{
-    font-weight: 700;
-}
-.widget_item .btn:hover{
-    background-color: #8E97B4;
-}
-.widget_item li a{
-    color:#aaa;
-}
-.widget_item li a:hover{
-    color:#fff;
-}
-
-.widget_latst_item_text p{
-    margin-bottom: 0px;
-    color:#aaaaaa;
-}
-.widget_service li i,
-.widget_latst_item_text a{
-    font-size:12px;
-    color:#aaaaaa;
-}
-.widget_service li i{
-    margin-right: 5px;
-}
-.widget_service li{
-    font-size:13px;
-    border-bottom: 1px dashed #aaa;
-    padding-bottom: 10px;
-}
-.widget_newsletter li a:hover i,
-.widget_latst_item_text:hover p,
-.widget_service li:hover,
-.widget_service li:hover i{
-    color:#fff;
-}
-
-.widget_ab_item .item_icon,
-.widget_latst_item .item_icon{
-    float: left;
-    width: 20%;
-    display: inline-block;
-    margin-right: 15px;
-}
-.widget_ab_item .widget_ab_item_text,
-.widget_latst_item .widget_latst_item_text {
-    display: inline-block;
-    width: 70%;
-}
-.widget_ab_item .item_icon{
-    float: left;
-    width: 10%;
-    display: inline-block;
-    margin-right: 15px;
-}
-.widget_ab_item .widget_ab_item_text {
-    display: inline-block;
-    width: 80%;
-}
-.widget_newsletter .form-inline .form-group{
-    display: block;
-}
-.widget_newsletter .form-control{
-    width:80%;
-    height: 40px;
-    background-color: #1a1a1a;
-    border-color:#333333;
-    display: inline-block;
-}
-.widget_newsletter .btn{
-    width: 20%;
-    padding: 0.65rem 1.2rem;
-    background-color: #6FB3F2;
-    border-color:#6FB3F2;
-    color:#fff;
-    border-radius: 0;
-    margin-left:-4px;
-    display: inline-block;
-}
-.widget_brand a{
-    font-size:30px;
-    font-weight: 800;
-    color:#aaa;
-}
-.widget_newsletter li a i{
-    color:#aaa;
 }
 
 
@@ -1344,20 +1216,9 @@ work Section style
     padding: 5px;
 }
 
-
-
-
-
-
-
-
-
-
 img.logo {
     width: 55%;
-    /* margin-bottom: 45px; */
     margin-top: -3%;
-    /* margin-top: -14px auto; */
 }
 
 img.logo1 {
@@ -1365,18 +1226,12 @@ img.logo1 {
   margin: -5% auto;
 }
 
-/* .slid_item.slick-slide.slick-current.slick-active {
-    margin-top: -5%;
-} */
-
 @media (max-width: 992px) and (max-width: 1199px) {
     img.logo {
         width: 50%;
-        /* max-width: 275px; */
         margin: 0 auto;
         margin-top: -5%;
         max-height: 65px;
-
     }
 }
 
@@ -1388,10 +1243,6 @@ i.fa.fa-arrow-circle-right {
 .ml-50 {
   text-align: center;
   margin-left: 50px;
-
-  /* margin: 0 auto; */
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 
 .package-img {
@@ -1401,18 +1252,11 @@ i.fa.fa-arrow-circle-right {
 .center {
   text-align: center;
   margin: 0 auto;
-  /* align-items: center;
-  justify-content: center; */
 }
 
 section#test {
     padding-top: 0px;
 }
-
-/* a#videoMobile {
-    min-width: 225px;
-    max-width: 310px;
-} */
 
  .flex-container {
    padding: 0;
@@ -1423,9 +1267,7 @@ section#test {
    justify-content: center;
  }
 
-/* .playButton {
-  padding: 250px;
-} */
+
 .paypal {
   padding-top: 5%;
 }
@@ -1436,4 +1278,8 @@ section#test {
 
 .package-img {
   padding-bottom: 5%;
+}
+
+a#moreInfo:focus {
+    color: white;
 }

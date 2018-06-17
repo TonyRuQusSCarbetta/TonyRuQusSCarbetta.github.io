@@ -1,28 +1,9 @@
-
-
-/*
-Author: Bootstrapthemes
-Author URI: http://www.xpeedstudio.com
-*/
-
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
     body {
         font-size: 1rem;
     }
-    
-
-
-
 }
-
-
-
-/* Portrait tablets and small desktops */
-/*@media (max-width: 992px) {
-
-}*/
-
 
 /* Portrait tablets and small desktops */
 @media (max-width: 991px) {
@@ -138,6 +119,3 @@ Author URI: http://www.xpeedstudio.com
 
 
 }
-
-
-

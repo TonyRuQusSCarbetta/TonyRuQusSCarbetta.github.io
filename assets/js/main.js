@@ -7,7 +7,20 @@ jQuery(document).ready(function ($) {
         $("#loading").fadeOut(500);
     });
 
+    //---------------------------------------------
+    // Scroll
+    //---------------------------------------------
 
+        $('.scrollup').click(function () {
+            $("html, body").animate({scrollTop: 0}, 1000);
+            return false;
+        });
+
+        $(".scrollToBusiness").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#business").offset().top
+            -220}, 1000);
+        });
     /*---------------------------------------------*
      * Mobile menu
      ---------------------------------------------*/
@@ -17,7 +30,7 @@ jQuery(document).ready(function ($) {
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
             if (target.length) {
                 $('html,body').animate({
-                    scrollTop: (target.offset().top - 80)
+                    scrollTop: (target.offset().top - 220)
                 }, 1000);
                 if ($('.navbar-toggle').css('display') != 'none') {
                     $(this).parents('.container').find(".navbar-toggle").trigger("click");
@@ -26,8 +39,6 @@ jQuery(document).ready(function ($) {
             }
         }
     });
-
-
 
     /*---------------------------------------------*
      * WOW
@@ -65,9 +76,9 @@ jQuery(document).ready(function ($) {
         autoplay: true,
         autoplaySpeed: 2000
     });
-    
-    
-    
+
+
+
     $(".business_items").slick({
         dots: true,
         infinite: false,
@@ -80,31 +91,6 @@ jQuery(document).ready(function ($) {
         autoplaySpeed: 2000
     });
 
-
-
-
-//---------------------------------------------
-// Scroll Up 
-//---------------------------------------------
-
-    $('.scrollup').click(function () {
-        $("html, body").animate({scrollTop: 0}, 1000);
-        return false;
-    });
-
-
-
-
-
-
-
-
-
-
-
     //End
 
 });
-
-
-
