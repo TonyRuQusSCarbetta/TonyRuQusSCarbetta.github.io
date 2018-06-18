@@ -7,10 +7,17 @@ jQuery(document).ready(function ($) {
         $("#loading").fadeOut(500);
     });
 
+// call to action btn
+    $(".scrollToBusiness").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#business").offset().top
+        -220}, 1000);
+    });
+
     /*---------------------------------------------*
      * Mobile menu
      ---------------------------------------------*/
-    $('#navbar-menu').find('a[href*=#]:not([href=#])').click(function () {
+    $('.scroll-animate').find('a[href*=#]:not([href=#])').click(function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -25,6 +32,8 @@ jQuery(document).ready(function ($) {
             }
         }
     });
+
+
 
     /*---------------------------------------------*
      * WOW
@@ -77,20 +86,28 @@ jQuery(document).ready(function ($) {
         autoplaySpeed: 2000
     });
 
-    //---------------------------------------------
-    // Scroll
-    //---------------------------------------------
 
-        $('.scrollup').click(function () {
-            $("html, body").animate({scrollTop: 0}, 1000);
-            return false;
-        });
 
-        $(".scrollToBusiness").click(function() {
-            $('html, body').animate({
-                scrollTop: $("#business").offset().top
-            -220}, 1000);
-        });
+
+//---------------------------------------------
+// Scroll Up
+//---------------------------------------------
+
+    $('.scrollup').click(function () {
+        $("html, body").animate({scrollTop: 0}, 1000);
+        return false;
+    });
+
+
+
+
+
+
+
+
+
+
+
     //End
 
 });
